@@ -1,0 +1,1 @@
+<view class="container data-v-43f4ceb6"><view class="layout data-v-43f4ceb6"><view wx:for="{{a}}" wx:for-item="item" class="box data-v-43f4ceb6"><view class="pic data-v-43f4ceb6"><image class="data-v-43f4ceb6" src="{{b}}" mode="widthFix"></image></view><view class="text data-v-43f4ceb6">@@@@@</view></view></view></view>

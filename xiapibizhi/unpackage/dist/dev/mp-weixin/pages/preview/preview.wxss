@@ -1,0 +1,197 @@
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.preview.data-v-2dad6c07 {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+.preview swiper.data-v-2dad6c07 {
+  width: 100%;
+  height: 100%;
+}
+.preview swiper image.data-v-2dad6c07 {
+  width: 100%;
+  height: 100%;
+}
+.preview .mask > view.data-v-2dad6c07 {
+  width: -webkit-fit-content;
+  width: fit-content;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  color: #fff;
+}
+.preview .mask .goBack.data-v-2dad6c07 {
+  width: 38px;
+  height: 38px;
+  background: rgba(0, 0, 0, 0.5);
+  left: 30rpx;
+  margin-left: 0;
+  border-radius: 100rpx;
+  top: 0;
+  -webkit-backdrop-filter: blur(10rpx);
+          backdrop-filter: blur(10rpx);
+  border: 1rpx solid rgba(255, 255, 255, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.preview .mask .count.data-v-2dad6c07 {
+  top: 10vh;
+  background: rgba(0, 0, 0, 0.3);
+  font-size: 28rpx;
+  border-radius: 40rpx;
+  padding: 8rpx 28rpx;
+  -webkit-backdrop-filter: blur(20rpx);
+          backdrop-filter: blur(20rpx);
+}
+.preview .mask .time.data-v-2dad6c07 {
+  font-size: 140rpx;
+  top: calc(10vh + 80rpx);
+  font-weight: 100;
+  line-height: 1em;
+  text-shadow: 0 4rpx rgba(0, 0, 0, 0.3);
+}
+.preview .mask .date.data-v-2dad6c07 {
+  font-size: 28rpx;
+  top: calc(15vh + 160rpx);
+  padding: 8rpx 28rpx;
+}
+.preview .mask .footer.data-v-2dad6c07 {
+  bottom: 10vh;
+  background: rgba(255, 255, 255, 0.8);
+  width: 54vw;
+  height: 120rpx;
+  border-radius: 120rpx;
+  font-size: 28rpx;
+  color: #000;
+  -webkit-backdrop-filter: blur(20rpx);
+          backdrop-filter: blur(20rpx);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 0 2rpx 0 rgba(0, 0, 0, 0.1);
+}
+.preview .mask .footer .box.data-v-2dad6c07 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #777;
+  padding: 2rpx 12rpx;
+}
+.preview .mask .footer .box .text.data-v-2dad6c07 {
+  font-size: 26rpx;
+}
+.preview .infopopup.data-v-2dad6c07 {
+  background: #fff;
+  padding: 30rpx;
+  border-radius: 30rpx 30rpx 0 0;
+  overflow: hidden;
+}
+.preview .infopopup .phpHeader.data-v-2dad6c07 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.preview .infopopup .phpHeader .title.data-v-2dad6c07 {
+  color: #888;
+  font-size: 26rpx;
+}
+.preview .infopopup .phpHeader .close.data-v-2dad6c07 {
+  padding: 6rpx;
+}
+.preview .infopopup scroll-view.data-v-2dad6c07 {
+  max-height: 60vh;
+}
+.preview .infopopup scroll-view .content .row.data-v-2dad6c07 {
+  display: flex;
+  padding: 16rpx 0;
+  font-size: 32rpx;
+  line-height: 1.7em;
+}
+.preview .infopopup scroll-view .content .row .label.data-v-2dad6c07 {
+  color: #333;
+  width: 140rpx;
+  text-align: right;
+  font-size: 30rpx;
+}
+.preview .infopopup scroll-view .content .row .value.data-v-2dad6c07 {
+  flex: 1;
+  width: 0;
+  color: #888;
+}
+.preview .infopopup scroll-view .content .row .rotebox.data-v-2dad6c07 {
+  display: flex;
+}
+.preview .infopopup scroll-view .content .row .tabs.data-v-2dad6c07 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.preview .infopopup scroll-view .content .row .tabs .tab.data-v-2dad6c07 {
+  border: 1px solid #28B389;
+  color: #28B389;
+  font-size: 22rpx;
+  padding: 10rpx 20rpx;
+  border-radius: 40rpx;
+  line-height: 1em;
+  margin: 0 10rpx 10rpx 0;
+}
+.preview .infopopup scroll-view .content .copyright.data-v-2dad6c07 {
+  font-size: 28rpx;
+  padding: 20rpx;
+  background: #F6F6F6;
+  color: #666;
+  border-radius: 10rpx;
+  margin: 20rpx 0;
+  line-height: 1.6em;
+}
+.scorepopup.data-v-2dad6c07 {
+  background: #fff;
+  padding: 30rpx;
+  border-radius: 30rpx;
+  width: 70vw;
+}
+.scorepopup .content.data-v-2dad6c07 {
+  padding: 30rpx 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.scorepopup .popHeader.data-v-2dad6c07 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.scorepopup .popHeader .title.data-v-2dad6c07 {
+  color: #888;
+  font-size: 26rpx;
+}
+.scorepopup .popHeader .close.data-v-2dad6c07 {
+  padding: 6rpx;
+}
